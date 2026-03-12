@@ -65,9 +65,3 @@ retail_analytics_bigquery/
 - `fact_sales_opt` is partitioned by `order_date` and clustered by common analytics keys.
 - `dim_date_opt` is clustered only. It is not partitioned to avoid partition count limits.
 - The dashboard should connect to `vw_daily_sales_dashboard`.
-
-## Resume Summary
-**Project Title:** Retail Analytics Data Warehouse using BigQuery
-
-- Designed and implemented a star schema data warehouse in Google BigQuery using the TheLook E-commerce dataset, modeling fact and dimension tables to enable scalable analysis of orders, customers, and product performance.
-- Developed SQL-based data transformation pipelines to aggregate transactional e-commerce data into analytical tables, enabling insights such as revenue trends, top-selling products, and customer purchasing behavior.
